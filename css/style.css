@@ -1,0 +1,70 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+.header {
+    margin: auto;
+    background-color: rgb(147, 0, 192);
+    width: 100vw;
+}
+
+.nav-header {
+    color: rgb(228, 228, 228);
+    padding: 3px;
+    margin: 3px;
+}
+
+#logo-header {
+    margin: 4px;
+    border-radius: 50%;
+    width: 60px;
+}
+
+.nav-header a {
+    color: rgb(228, 228, 228);
+}
+
+.aside {
+    background-color: rgb(245, 127, 31);
+}
+
+.article {
+    background-color: rgb(0, 13, 134);
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(228, 228, 228);
+}
+
+.footer__titulo-presentacion {
+    font-size: 32px;
+    font-style: italic,bold;
+    margin: 3px;
+    padding: 3px;
+}
+
+.footer__texto {
+    font-size: 18px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.footer__titulo-contacto {
+    font-style: bold;
+    font-size: 30px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.footer__derechos {
+    padding: 3px;
+    margin: 3px;
+}

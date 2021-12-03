@@ -8,13 +8,17 @@
         <meta name="copyright" content="D'marce">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="">
+        <link rel="icon" href="Img/Logo.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <title>D'marce</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <img src="Img/Lands.png" width="50px">
+        <header class="header" >
+            <nav class="nav-header">
+                <img src="Img/Logo.jpg" width="50px" id="logo-header">
                 <h3>D'marce</h3>
                 <ul>
                     <li>
@@ -30,23 +34,23 @@
             </nav>
         </header>
 
-        <aside>
+        <aside class="aside">
             <h1>
                 Configuracion
             </h1>
             <a href="#contacto">Click aqui para ir a la info</a>
         </aside>
 
-        <article>
+        <article class="article">
             <section>
                     <h1>Bienvenido a D'marce</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam temporibus quos totam fugit libero, placeat, reprehenderit beatae nemo distinctio, molestias quasi magni consequatur itaque. Odio quas neque autem porro laboriosam?
                     </p>
-                <img src="" alt="Lands Awekend" title="Albion">
-                <video src="" width="600px" controls>
+                <img src="Img/Logo.jpg" alt="Lands Awekend" title="Albion">
+                <video src="Video/Muestra.mp4" width="600px" controls>
                 </video>
-                <audio src="" controls>
+                <audio src="Video/Muestra.mp4" controls>
                 </audio>
             </section>
             <section>
@@ -77,18 +81,18 @@
             </section>
         </article>
 
-        <footer>
-            <h4>
+        <footer class="footer">
+            <h2 class="footer__titulo-presentacion">Sobre nosotros</h2>
+            <p class="footer__texto">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti soluta possimus magnam ipsa porro ullam suscipit molestias dolor, similique quidem consequatur hic earum tempora. Temporibus nisi distinctio debitis laborum id.
-            </h4>
-            
-            <h3 id="contacto">Contactanos</h3>
-            <ul>
+            </p>
+            <h3 class="footer__titulo-contacto">Contactanos</h3>
+            <ul class="footer_list">
                 <li>Contacto</li>
                 <li>Social Networks</li>
                 <li>Correo</li>
             </ul>
-            <h4>
+            <h4 class="footer__derechos">
                 Copyright- todos los derechos reservados
             </h4>
         </footer>

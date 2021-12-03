@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Login</title>
     </head>
     <body>
         <header>
             <nav>
-                <img src="../Img/Lands.png" width="50px">
+                <img src="../Img/Logo.jpg" width="50px">
                 <h3>D'marce</h3>
                 <ul>
                     <li>
@@ -30,22 +31,16 @@
             </h1>
         </aside>
         <article>
-            <section>         
-                <h1>Inicio de sesion</h1>
-                <form action="">
-                    <input type="text" name="nombre" required>
-                    <input type="password" name="contraseña" required>
-                    <input type="email" name="correo" required>
-                    <input type="number" name="numero" required>
-                    <input type="color" name="color" required>
-                    <input type="range" name="rango" required min="1" max="5">
-                    <input type="date" name="fecha" required>
-                    <input type="time" name="fecha" required>
-                    <input type="button" name="fecha" required value="boton">
-                    <input type="submit" name="fecha" required>
-                    <textarea name="" id="" cols="30" rows="10">Hola</textarea>
-                <a href="../index.html">Volver</a>
-                </audio>
+            <section>
+                <div class="login">
+                    <h1>Inicio de sesion</h1>
+                    <form action="login-form">
+                        <input type="text" class="login-form__input" name="usuario" required>
+                        <input type="email" class="login-form__input" name="correo" required>
+                        <input type="password" class="login-form__input" name="contraseña" required>
+                        <input type="submit" class="login-form__input" name="fecha" required>
+                    <a href="../index.html">Volver</a>
+                </div>         
             </section>
         </article>
         <footer>
